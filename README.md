@@ -9,7 +9,12 @@ cd ncyu-2021-ex1
 git init			# 執行 git init
 echo "Example 1" > ex1.txt
 ```
-
+可以改成以下指令
+```
+git clone https://github.com/1072938/ncyu-2021.git
+git checkout ex1
+echo "Example 1" > ex1.txt
+```
 2. 將 ex1.txt 加入 Git local repository 並 commit
 
 [注意] 只能有"一筆"commit
